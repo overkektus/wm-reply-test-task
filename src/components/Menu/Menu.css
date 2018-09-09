@@ -1,0 +1,35 @@
+.menu {
+  padding: 10px 0;
+  background-color: #113b92;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu__item {
+  font-size: 1.6rem;
+  margin-right: 5%;
+}
+
+.menu__link {
+  color: #fff;
+  transition: all 0.15s ease-in-out;
+}
+
+.menu__tube-logo {
+  width: 70px;
+}
+
+.menu__tube-logo-wrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}

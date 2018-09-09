@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import TemplateTopMenu from '../components/TemplateTopMenu';
+import Template from '../components/Template/Template';
 
 import HomePage from '../containers/HomePage';
 import StationsPage from '../containers/StationsPage';
@@ -15,43 +15,43 @@ const Index = () => (
       exact
       path="/"
       render={props => (
-        <TemplateTopMenu>
+        <Template>
           <HomePage {...props}/>
-        </TemplateTopMenu>
+        </Template>
       )}
     />
     <Route
       exact
       path="/stations"
       render={props => (
-        <TemplateTopMenu>
+        <Template>
           <StationsPage {...props}/>
-        </TemplateTopMenu>
+        </Template>
       )}
     />
     <Route
       exact
       path="/planner"
       render={props => (
-        <TemplateTopMenu>
+        <Template>
           <PlannerPage {...props}/>
-        </TemplateTopMenu>
+        </Template>
       )}
     />
     <Route
       exact
       path="/info"
       render={props => (
-        <TemplateTopMenu>
+        <Template>
           <InfoPage {...props}/>
-        </TemplateTopMenu>
+        </Template>
       )}
     />
     <Route
       render={props => (
-        <TemplateTopMenu>
+        <Template>
           <NotFoundPage {...props}/>
-        </TemplateTopMenu>
+        </Template>
       )}
     />
   </Switch>

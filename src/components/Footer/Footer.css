@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 auto;
+  height: 55px;
+  padding: 0 20px;
+  background-color: #EA2E25;
+}
+
+.footer__author {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.footer__socials {
+  display: flex;
+}
+
+.footer__socials-item {
+  margin-left: 10px;
+}
+
+.footer__socials-icon {
+  width: 32px;
+}
